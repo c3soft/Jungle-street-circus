@@ -1,0 +1,54 @@
+.containerHome {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 92.4vh;
+  background: url('../../images/img-Home.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.titleHome {
+  position: absolute;
+  margin-top: 0;
+  font-family: 'keypassregular';
+  font-size: 6em;
+  color: rgb(243, 13, 13);
+  right: 0.5em;
+}
+
+.titleSlogan {
+  width: 100%;
+  position: absolute;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+  color: rgb(228, 192, 192);
+  letter-spacing: 0.9em;
+  bottom: 0.5em;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+}
+
+.artists {
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  color: rgb(228, 192, 192);
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .titleHome {
+    font-size: 5em;
+  }
+
+  .titleSlogan {
+    letter-spacing: 0em;
+  }
+}
